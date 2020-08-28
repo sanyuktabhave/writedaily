@@ -1,0 +1,40 @@
+.bg {
+    background: url('image2.jpg') no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: 200%;
+}
+.form-container{
+    position: absolute;
+    top: 20vh;
+    background: #FFEFD5;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+@media only screen and (max-width:678px){
+.bg{
+    background-size: 300%;
+}
+}
+.jh{
+    background-color: #F0E68C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-left:150px;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 5px;
+    margin: 20px;
+    color: black;
+
+}
+#container{
+    text-align: center;
+}
